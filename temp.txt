@@ -11,30 +11,68 @@ Step 2: Start of Head
 Step 3: End of Body
 
     <div id="download-pdf" class="btn-download">
-        <a download="Resume | Sukhdev Kushwaha | Full Stack Engineer | Architect.pdf" href="/docs/Resume_Sukhdev_Kushwaha_Manager_Architect.pdf">
-            <i class="fa fa-file-pdf-o fa-2x"></i>
-        </a>
-        <span class="tooltip-text">download a copy</span>
-    </div>
-    <style type="text/css">
-        .btn-download a {
-            position: fixed;
-            width: 50px;
-            height: 50px;
-            bottom: 20px;
-            right: 20px;
-            background-color: hsl(205, 46%, 92%);
-            border-color: hsl(205, 41%, 63%);
-            color: #FFF;
-            border-radius: 50px;
-            text-align: center;
-            box-shadow: 2px 2px 3px #999;
-            border: 1px solid transparent;
-            text-decoration: none;
-        }
-        .btn-download i {
-            margin-left: 1px;
-            margin-top: 8px;
-            color: red;
-        }
-    </style>
+    <a download="Resume | Sukhdev Kushwaha | Full Stack Engineer | Architect.pdf"
+        href="/docs/Resume_Sukhdev_Kushwaha_Manager_Architect.pdf">
+        <i class="fa fa-file-pdf-o fa-2x"></i>
+    </a>
+    <span class="tooltip-text">download a copy</span>
+</div>
+<div data-w-id="5b28e6e4-e26e-928f-b31e-5229d6f3fd23" class="progress-bar"
+    style="width: 0%; will-change: width, height;"></div>
+<style type="text/css">
+    .btn-download a {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        bottom: 10px;
+        right: 26px;
+        background-color: hsl(205, 46%, 92%);
+        border-color: hsl(205, 41%, 63%);
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        box-shadow: 2px 2px 3px #999;
+        border: 1px solid transparent;
+        text-decoration: none;
+    }
+
+    .btn-download i {
+        margin-left: 1px;
+        margin-top: 8px;
+        color: red;
+    }
+
+    .fc3 {
+        font-weight: bold;
+    }
+
+    .fce {
+        color: rgb(5, 99, 193);
+    }
+
+    .progress-bar {
+        z-index: 9;
+        background-color: #20b5a9;
+        width: 100%;
+        height: 8px;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+    }
+</style>
+<script type="text/javascript">
+
+    function calculateScrollPercentage(event) {
+
+        const divElement = event.target; //document.querySelector("#page-container");
+        const scrollTop = divElement.scrollTop;
+        const scrollHeight = divElement.scrollHeight;
+        const clientHeight = divElement.clientHeight;
+
+        const scrollPercentage = (scrollTop / (scrollHeight - clientHeight)) * 100;
+
+        document.querySelector(".progress-bar").style.width = scrollPercentage.toFixed(2) + "%";
+    }
+
+    document.querySelector("#page-container").addEventListener("scroll", calculateScrollPercentage);
+</script>

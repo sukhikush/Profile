@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Animated Resume Download</title>
+        <link rel="stylesheet" href="/public/css/styles.css">
+    </head>
+
+    <body>
+        <div class="progress-bar" style="width: 0%; will-change: width, height;"></div>
+        <div class="download-container">
+            <img src="/public/images/pdf-file.png" alt="Download" class="download-icon" id="download-btn">
+        </div>
+        <div id="dialog" class="dialog dialog-hidden">
+            <div class="dialog-content" onclick="event.stopPropagation()">
+                <h2>Select Resume Version</h2>
+                <div class="options">
+                    <button class="option-button" onclick="downloadFile('small-resume.pdf')">
+                        <span class="button-text">Small Resume</span>
+                        <img src="/public/images/file.png" alt="Small Resume" class="option-icon icon-default" />
+                        <img src="/public/images/cloud.png" alt="Small Resume" class="option-icon icon-hower" />
+                    </button>
+                    <button class="option-button" onclick="downloadFile('long-resume.pdf')">
+                        <span class="button-text">Long Resume</span>
+                        <img src="/public/images/file.png" alt="Small Resume" class="option-icon icon-default" />
+                        <img src="/public/images/cloud.png" alt="Small Resume" class="option-icon icon-hower" />
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <div id="overlay" class="overlay hidden" onclick="closeDialog()"></div>
+        <script src="/public/js/script.js"></script>
+    </body>
+
+</html>

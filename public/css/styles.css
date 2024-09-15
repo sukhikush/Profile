@@ -1,0 +1,177 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+
+.icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.dialog {
+    position: fixed;
+    bottom: 20px;
+    /* Start off-screen */
+    right: 20px;
+    /* Position from right */
+    background-color: white;
+    border: 2px solid #ccc;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    opacity: 1;
+    /* Initially hidden */
+    transition: all 0.5s ease;
+    /* Smooth transition */
+}
+
+.dialog-content {
+    text-align: center;
+}
+
+.overlay {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+    transition: all 0.5s ease;
+}
+
+.hidden {
+    width: 0%;
+    height: 0%;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.option-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f0f0f0;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    width: 80%;
+    position: relative;
+    overflow: hidden;
+}
+
+.option-button:hover {
+    background-color: #e0e0e0;
+    transform: scale(1.05);
+    color: darkred;
+    text-transform: uppercase;
+}
+
+.option-icon {
+    width: 20px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.button-text {
+    margin-right: 8px;
+}
+
+/* Slide-in animation for the dialog */
+.dialog.show {
+    bottom: 20px;
+    /* Move to visible position */
+    opacity: 1;
+    /* Fade in */
+}
+
+.dialog-hidden {
+    opacity: 0;
+    bottom: -400px;
+}
+
+.option-icon{
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.icon-default{
+    top:0px
+}
+.icon-hower{
+    left: -32px;
+    top: 40px;
+}
+
+.option-button:hover .icon-default{
+    top:-40px
+}
+.option-button:hover .icon-hower {
+    top: 0px;
+}
+
+.download-container {
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    bottom: 20px;
+    right: 26px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.download-icon{
+    width: 50px;
+    height: 50px;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+
+.download-container:hover .download-icon {
+    animation: flipHorizontal 1s forwards;
+    /* Trigger horizontal flip */
+}
+
+@keyframes flipHorizontal {
+    0% {
+        width: 50px;
+        height: 50px;
+    }
+    25%{
+        width: 0px;
+        height: 0px;
+    }
+
+    75% {
+        width: 100px;
+        height: 100px;
+    }
+
+    100% {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+
+.progress-bar {
+    z-index: 9;
+    background-color: #20b5a9;
+    width: 100%;
+    height: 8px;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+}

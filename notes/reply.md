@@ -1,9 +1,5 @@
 ## Inbox message to Job Post
 
-**Yes, you can definitely add that information to your message.** It will provide the recruiter with a concise overview of your key qualifications and make your candidacy even more compelling.
-
-Here's how you could incorporate it into the message:
-
 Hi **[Recruiter's Name]**,
 
 I hope this email finds you well.

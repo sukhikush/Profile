@@ -1,5 +1,9 @@
 ## Inbox message to Job Post
 
+### Subject Line
+Interested in [Job Title] Position at [Company Name] - Sukhdev Kushwaha
+
+### Body
 Hi **[Recruiter's Name]**,
 
 I hope this email finds you well.

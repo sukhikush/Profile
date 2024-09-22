@@ -1,4 +1,4 @@
-document.getElementById('download-btn').addEventListener('click', function() {
+document.getElementById('download-btn').addEventListener('click', function () {
     openDialog();
 });
 
@@ -36,3 +36,44 @@ function calculateScrollPercentage(event) {
 }
 
 document.querySelector("#page-container").addEventListener("scroll", calculateScrollPercentage);
+
+
+function addDynamicCSS(type) {
+    // Get the element you want to apply CSS to
+    var overlayDiv = document.getElementById("overlay");
+
+    var styles = `<style type="text/css">`;
+
+    if (type == "Desktop") {
+        styles += `
+        .download-container:hover .download-icon {
+            animation: flipHorizontal 1s forwards;
+        }`;
+    }else{
+        styles += `
+        .option-button {
+            width: 161px;
+        }
+        .button-text{
+            opacity:1;
+        }`;
+    }
+    styles += `</style > `
+    overlayDiv.insertAdjacentHTML("afterend", styles)
+}
+
+function detectDeviceType() {
+    const userAgent = navigator.userAgent;
+
+    // Regular expression to check for mobile devices
+    const mobileRegex = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i;
+
+    // Check if the user agent matches the mobile regex
+    if (mobileRegex.test(userAgent)) {
+        addDynamicCSS('Mobile');
+    } else {
+        addDynamicCSS('Desktop');
+    }
+}
+
+console.log(detectDeviceType());

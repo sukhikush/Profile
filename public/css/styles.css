@@ -149,10 +149,9 @@ opacity: 1;
     transform-style: preserve-3d;
 }
 
-.download-container:hover .download-icon {
+/* .download-container:hover .download-icon {
     animation: flipHorizontal 1s forwards;
-    /* Trigger horizontal flip */
-}
+} */
 
 @keyframes flipHorizontal {
     0% {

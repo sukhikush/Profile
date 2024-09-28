@@ -1,3 +1,15 @@
+## Note to your Connect Request
+
+Hey,
+
+I'm interested in the Engineering Delivery Manager role. With 11+ years in Agile, Project Mgmt, & Arch. Solutioning, plus a strong dev background & proven track record make me a solid candidate. 
+
+I'm confident I can contribute significantly to your team.
+
+Learn more: linkedin.com/in/sukhikush
+
+<br/><br/>
+
 ## Inbox message to Job Post
 
 ### Subject Line

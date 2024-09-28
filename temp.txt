@@ -5,34 +5,4 @@ Modify Below code
 Step 1:
     <title>Sukhdev Kushwaha | Full Stack | Software Manager | Solution Architect</title>
 
-Step 2: Start of Head
-    <link rel="stylesheet" href="/public/css/styles.css">
-
-Step 3: End of Body
-
-<div class="progress-bar" style="width: 0%; will-change: width, height;"></div>
-<style type="text/css">
-    .progress-bar {
-        z-index: 9;
-        background-color: #20b5a9;
-        width: 100%;
-        height: 8px;
-        position: fixed;
-        top: 0px;
-        left: 0px;
-    }
-</style>
-<script type="text/javascript">
-
-    function calculateScrollPercentage(event) {
-        const divElement = event.target;
-        const scrollTop = divElement.scrollTop;
-        const scrollHeight = divElement.scrollHeight;
-        const clientHeight = divElement.clientHeight;
-
-        const scrollPercentage = (scrollTop / (scrollHeight - clientHeight)) * 100;
-        document.querySelector(".progress-bar").style.width = scrollPercentage.toFixed(2) + "%";
-    }
-
-    document.querySelector("#page-container").addEventListener("scroll", calculateScrollPercentage);
-</script>
+Step 2: copy paste the content of download.html at the end

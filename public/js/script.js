@@ -76,4 +76,4 @@ function detectDeviceType() {
     }
 }
 
-console.log(detectDeviceType());
+detectDeviceType();

@@ -3,6 +3,7 @@ https://cloudconvert.com/pdf-converter
 
 Modify Below code
 Step 1:
+    <link rel="shortcut icon" href="https://www.flaticon.com/media/dist/min/img/favicon.ico">
     <title>Sukhdev Kushwaha | Full Stack | Software Manager | Solution Architect</title>
 
 Step 2: copy paste the content of download.html at the end

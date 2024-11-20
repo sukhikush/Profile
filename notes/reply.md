@@ -73,9 +73,13 @@ With 11+ years of experience in Agile Development, Project Management, and Archi
 My profile highlights the following key qualifications:
 
 ★ 𝙿̲𝚛̲𝚘̲𝚟̲𝚎̲𝚗̲ ̲𝙻̲𝚎̲𝚊̲𝚍̲𝚎̲𝚛̲𝚜̲𝚑̲𝚒̲𝚙̲:- 8+ years of experience leading high-performing teams, successfully driving 30+ projects to completion, and achieving business objectives.
+
 ★ 𝚃̲𝚎̲𝚌̲𝚑̲𝚗̲𝚒̲𝚌̲𝚊̲𝚕̲ ̲𝙴̲𝚡̲𝚙̲𝚎̲𝚛̲𝚝̲𝚒̲𝚜̲𝚎̲:- Strong technical background with hands-on experience in software development, architecture, cloud technologies and process automation.
+
 ★ 𝙳̲𝚎̲𝚕̲𝚒̲𝚟̲𝚎̲𝚛̲𝚢̲ ̲𝙵̲𝚘̲𝚌̲𝚞̲𝚜̲:- Successful track record in delivering 30+ complex IT projects on time, within budget, and meeting quality standards.
+
 ★ 𝙱̲𝚞̲𝚜̲𝚒̲𝚗̲𝚎̲𝚜̲𝚜̲ ̲𝙰̲𝚌̲𝚞̲𝚖̲𝚎̲𝚗̲:- Ability to bridge the gap between business and technology, aligning project goals with organizational objectives.
+
 ★ 𝙲̲𝚑̲𝚊̲𝚗̲𝚐̲𝚎̲ ̲𝙼̲𝚊̲𝚗̲𝚊̲𝚐̲𝚎̲𝚖̲𝚎̲𝚗̲𝚝̲:- Experience in driving digital transformation, process automation, and implementing innovative solutions.
 
 Please take a moment to review my LinkedIn profile, which provides further details about my skills and experience.

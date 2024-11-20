@@ -57,3 +57,37 @@ Please feel free to contact me at **+91-9890602317** to discuss this further. I'
 
 Best regards,
 Sukhdev
+
+
+## Try below for LinkedIn directy request.
+
+
+Hi [Recruiter's Name],
+
+I hope this email finds you well.
+
+I'm writing to express my keen interest in the [Job Title] position at [Company Name].
+
+With 11+ years of experience in Agile Development, Project Management, and Architectural Solutioning, coupled with a strong foundation in software development and a proven track record in delivering successful projects, I'm confident in my ability to contribute significantly to your team.
+
+My profile highlights the following key qualifications:
+
+★ 𝙿̲𝚛̲𝚘̲𝚟̲𝚎̲𝚗̲ ̲𝙻̲𝚎̲𝚊̲𝚍̲𝚎̲𝚛̲𝚜̲𝚑̲𝚒̲𝚙̲:- 8+ years of experience leading high-performing teams, successfully driving 30+ projects to completion, and achieving business objectives.
+★ 𝚃̲𝚎̲𝚌̲𝚑̲𝚗̲𝚒̲𝚌̲𝚊̲𝚕̲ ̲𝙴̲𝚡̲𝚙̲𝚎̲𝚛̲𝚝̲𝚒̲𝚜̲𝚎̲:- Strong technical background with hands-on experience in software development, architecture, cloud technologies and process automation.
+★ 𝙳̲𝚎̲𝚕̲𝚒̲𝚟̲𝚎̲𝚛̲𝚢̲ ̲𝙵̲𝚘̲𝚌̲𝚞̲𝚜̲:- Successful track record in delivering 30+ complex IT projects on time, within budget, and meeting quality standards.
+★ 𝙱̲𝚞̲𝚜̲𝚒̲𝚗̲𝚎̲𝚜̲𝚜̲ ̲𝙰̲𝚌̲𝚞̲𝚖̲𝚎̲𝚗̲:- Ability to bridge the gap between business and technology, aligning project goals with organizational objectives.
+★ 𝙲̲𝚑̲𝚊̲𝚗̲𝚐̲𝚎̲ ̲𝙼̲𝚊̲𝚗̲𝚊̲𝚐̲𝚎̲𝚖̲𝚎̲𝚗̲𝚝̲:- Experience in driving digital transformation, process automation, and implementing innovative solutions.
+
+Please take a moment to review my LinkedIn profile, which provides further details about my skills and experience.
+
+https://www.linkedin.com/in/sukhikush
+
+I'd appreciate the opportunity to discuss how my qualifications can benefit your team. Please let me know if you're available for a brief phone call or video chat at your earliest convenience.
+
+Thank you for your time and consideration.
+
+
+Best regards,
+Sukhdev Kushwaha
++91-9890602317
+LI - sukhikush | Web - sukhi.kushvision.in

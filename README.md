@@ -3,7 +3,7 @@ static site for resume
 
 ## How Do the Services Communicate with Each Other?
 #### Note
-- This can be scaled by deployment in K8s, refer to below diagram
+- This architecture can be scaled by deploying it in Kubernetes (K8s).
 ```mermaid
     graph LR
         MDS[Multiple Data Sources<br/>APIs, Databases, etc.]

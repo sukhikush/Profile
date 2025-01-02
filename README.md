@@ -1,20 +1,20 @@
 # resume
 static site for resume
 
-## How Does the Service Comuicate with each other
+## How Do the Services Communicate with Each Other?
 #### Note
 - This can be scaled by deployment in K8s, refer to below diagram
 ```mermaid
     graph LR
-        MDS[Multiple Data Sources]
-        S3FD[S3 Bucket File Dump]
+        MDS[Multiple Data Sources<br/>APIs, Databases, etc.]
+        S3FD[S3 Bucket<br>Raw File Storage]
 
         subgraph TDI[Data Ingestion]
-            KC(Kafka Connect S3 Source Connector)
-            AK(Kafka)
+            KC(Kafka Connect<br>S3 Source Connector)
+            AK(Kafka Message Broker)
         end
         subgraph TRTP[Real-Time Processing]
-            AF{Apache Flink}
+            AF{Apache Flink<br>Stream & Batch Processing}
         end
         subgraph TDS[Data Storage]
             R(Redis Cache)
@@ -23,21 +23,21 @@ static site for resume
         end
 
         subgraph Monitoring & Alerting
-            ELK(Elasticsearch, Logstash, Kibana)
+            ELK(ELK Stack<br>Elasticsearch, Logstash, Kibana)
         end
 
-        S3FD -->|Stream File| KC
-        MDS -->|Data| AK
+        S3FD -->|Stream Files| KC
+        MDS -->|Push Data| AK
         KC --> AK
         AK --> AF
-        AF --> R
-        R <--> MD
-        R <--> PS
-        AF -.->|Monitoring logs| ELK
-        AK -.->|Monitoring logs| ELK
-        R -.->|Monitoring logs| ELK
-        MD -.->|Monitoring logs| ELK
-        PS -.->|Monitoring logs| ELK
+        AF --> |Caching frequent acess data|R
+        R <-->|Unstructured Data| MD
+        R <-->|Structured Data| PS
+        AF -.->|Logs & Metrics| ELK
+        AK -.->|Logs & Metrics| ELK
+        R -.->|Logs & Metrics| ELK
+        MD -.->|Logs & Metrics| ELK
+        PS -.->|Logs & Metrics| ELK
 ```
 ## How Does Kubernetes Deployment for above service look like?
 #### Note

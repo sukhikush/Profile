@@ -85,6 +85,15 @@ Learn more: linkedin.com/in/sukhikush
 
 <br/><br/>
 
+## New Request not idea of Job Opening
+Hi,
+
+Hope you're doing well. I'm exploring job opportunities. With 11+ yrs in Agile, Project/Engg. Mgmt., and Arch. Sol., along with a strong dev background and proven track record, I believe I’m a strong candidate.
+
+Please check my profile for any suitable roles
+
+LinkedIn: linkedin.com/in/sukhikush
+
 ## Reply to In Mail Message Request
 Hi **[HR]**,
 

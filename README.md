@@ -39,11 +39,11 @@ static site for resume
         MD -.->|Logs & Metrics| ELK
         PS -.->|Logs & Metrics| ELK
 ```
-## How Does Kubernetes Deployment for above service look like?
+## How Does the Kubernetes Deployment for the Above Service Look?
 #### Note
-- We can have multiple Regions for High Availibity
-- Also we can have **multiple replicas of Pods in diffrent Worker Node**, managed by K8s
-- Below digram we have **only 1 node for easy of understanding**
+- We can have multiple regions to ensure high availability.
+- Kubernetes can manage **multiple replicas of pods across different worker nodes for scalability and fault tolerance**.
+- For **simplicity**, the diagram below shows **only one node**.
 ```mermaid
     graph TB
         subgraph "Data Sources"

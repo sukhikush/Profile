@@ -3,11 +3,11 @@
 
 
 **Total Experience: 11.5 years**  
-- **Nexsales**:  
+- **Nexsales** (2021-Present):  
   - 3.5 years as Delivery Manager 2  
   - Managing a team of 20 Developers + 2 Testers + 1 UI/UX Designer, along with client interaction.  
 
-- **Ugam**:  
+- **Ugam** (2013-2021):  
   - 8 years as Assistant Manager (Journey from Junior Developer to Assistant Manager)  
   - Managing a team of 10 Developers with client management.  
 

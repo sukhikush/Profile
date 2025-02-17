@@ -99,8 +99,9 @@ Data Unification (ETL):
 
 
 
-Job Title <-> Level/Department
-    Features
+Job Title <-> Level/Department:
+
+    Features:
         An AI based tool that auto suggest Job Level and Department based on Job Title
         Tools was built in Pyhton using
         tensorflow : The main library used for machine learning

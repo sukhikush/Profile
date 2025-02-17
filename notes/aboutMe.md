@@ -1,8 +1,10 @@
 Yes definaely, happy to do that.
 
-Hello, my name is Sukhdev Kushwaha
+what I'll do, first share about my role and resposiblites at Current Compnany and then my technical expertise follwed by my key Achievements and Products? does that sounds good?
 
-and I bring over 12 years of experience in development (11.7 years to be precise), specializing in the Martech and Lead-Generation domains.
+My name is Sukhdev Kushwaha, you call also call me Sukhi...
+
+I bring overall 12 years of experience to be precise 11.7yrs in development, specializing in the Martech and Lead-Generation domains.
 
 Currently, I serve as a Delivery Manager at Nexsales, where I wear multiple hats as a Product Manager, Engineering Manager, and Solution Architect.
 
@@ -16,13 +18,13 @@ My core responsibilities @Nexsales include:
 
     Oversee end-to-end project delivery, including release planning through multiple MVPs, creating Jira and Confluence documentation, and ensuring timely execution.
 
-    Mentor and guide developers, conduct code reviews, and providing support to overcome challenges
+    Mentor and guide developers, conduct code reviews, and providing support to developers whereever they are stuck
 
     Building POC for quick development reference.
 
     Defining CI/CD pipelines and overseeing the entire product infrastructure.
 
-Overall, I split my time with 60% focus on management and 40% on hands-on development, ensuring both strategic and technical excellence.
+Overall, I split my time into 60-40 i.e. 60% focus on management and 40% on hands-on development, ensuring both strategic and technical excellence.
 
 Over the past three years, I have been managing the entire tech team and product architecture at Nexsales.
 
@@ -30,31 +32,34 @@ Nexsales is a B2B lead generation and data-building SAAS company.
 
 Before Nexsales, I spent 8 years at Ugam Solutions, a market research company, where I grew from a Junior Developer to an Assistant Manager.
 
-During this time, I developed custom survey solutions, managed client relationships, and was recognized with the Golden Pyramid Award (GPA) for "Pushing Boundaries" category for creating out-of-the-box solutions for clients.
+During this time, I had programmed multiple surveys, developed custom solutions, managed client relationships, and was recognized with the Golden Pyramid Award (GPA) in "Pushing Boundaries" category for creating out-of-the-box solutions for clients.
 
 I was also the go-to person for custom setups across multiple teams.
 
-Technical SKills
+
+Now comming to my technical expertise
+
     I have been maily working on Programming languages such as JavaScript and Python
     Strong expertise in React.js and Next.js for building responsive user interfaces.
     Skilled in Node.js with frameworks like Express and Fastify for scalable backend systems.
     Deep understanding of GraphQL and practical experience with RESTful API.
-    Hands-on experience with databases such as PostgreSQL, MySQL,MongoDB.
+    Hands-on experience with databases such as PostgreSQL and MongoDB.
     Proficient in managing deployments and infrastructure on Google Cloud Platform (GCP)
 
 
 Key Achievements at Nexsales:
 
+    I have built the entire Nexsales Development Team of 20 people (15 dev - 2 tester - 1 2U/UX - 1 wordpress)
+
     Built 5 new products from scratch, addressing critical business needs and driving business growth
+
         Campaigna Exectuion - Lead generation Platform
         RightLeads - A data ware house platform for managing hostorical data and client delivery
         TAM/SAM - A Market Size Persona estimating platform
         Reporting - An PowerBI reporting Platform
         Data Unification - an ETL platform
 
-        VoiceReach Migration
-
-    Migrated a legacy product from a virtual machine to a serverless architecture, resulting in a 50% reduction in monthly infrastructure costs
+    Migrated a legacy product (VoiceReach) from a virtual machine to a serverless architecture, resulting in a 50% reduction in monthly infrastructure costs
 
 
 Would like to discuss on 3 special products
@@ -99,9 +104,8 @@ Data Unification (ETL):
 
 
 
-Job Title <-> Level/Department:
-
-    Features:
+Job Title <-> Level/Department
+    Features
         An AI based tool that auto suggest Job Level and Department based on Job Title
         Tools was built in Pyhton using
         tensorflow : The main library used for machine learning

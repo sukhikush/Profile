@@ -119,3 +119,29 @@ Job Title <-> Level/Department
 
 
 
+
+
+
+
+
+    Ugam
+        Contact Us / Feedback functionalites in Dimention using Global Function
+        Custom Templates Theams using JQuery
+            Porjects can be easily customized using properties in metadata
+            Custom setup like slider, datapicker, drang and Drop, ranking setup
+        Mobile Optimized Design Setup
+
+        Image selection capture fatures
+        Random section participation section
+        DFP (Forensic) using forensic data to allow resue of sample
+        Dynamic sample routing based global screener questions
+        Captha setup to prevent BOT
+
+        I was awarded in GPA, in Push Boundaries Category
+
+    Nexsales
+        Graber in Chrome to Scrape Data
+        Desktop Processing tools for data cleaning and sanitization
+        DSR subject request using Open AI API and Langchang
+        Pyhton code built using Google that using Pandas for building complex reports schema
+        ETL processing tool and visualization PowerBI
